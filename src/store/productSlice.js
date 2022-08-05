@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
-export const STATUSSES = Object.freeze({
+export const STATUSSES = Object.freeze({            // using freeze do not change values ...................................
   IDLE:'idle',
   ERROR: 'error',
   LOADING: 'loading'
